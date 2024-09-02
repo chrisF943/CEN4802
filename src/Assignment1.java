@@ -11,6 +11,9 @@ public class Assignment1 {
      * @return the nth Fibonacci number
      */
     public static int fibonacci(int n) {
+        if (n < 0) {
+            throw new IllegalArgumentException("Negative arguments are not allowed");
+        }
         if (n == 0) {
             return 0;
         }
