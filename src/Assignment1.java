@@ -9,6 +9,7 @@ public class Assignment1 {
      *
      * @param n an integer specifying the position of the desired Fibonacci number in the sequence
      * @return the nth Fibonacci number
+     * @throws IllegalArgumentException if n is negative
      */
     public static int fibonacci(int n) {
         if (n < 0) {
@@ -20,7 +21,13 @@ public class Assignment1 {
         if (n == 1) {
             return 1;
         }
-        return (fibonacci(n - 1) + fibonacci(n - 2));
+        int[] memo = new int[n + 1];
+        memo[0] = 0;
+        memo[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            memo[i] = memo[i - 1] + memo[i - 2];
+        }
+        return memo[n];
     }// end of fibonacci
 
 
