@@ -18,6 +18,12 @@ public class Assignment1Test {
         assertEquals(1, result);
     }
 
+    @Test
+    public void test_fibonacci_two() {
+        int result = Assignment1.fibonacci(2);
+        assertEquals(1, result);
+    }
+
     // fibonacci(-1) handles negative input gracefully
     @Test
     public void test_fibonacci_negative() {
