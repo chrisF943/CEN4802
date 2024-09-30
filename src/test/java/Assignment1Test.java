@@ -29,6 +29,8 @@ public class Assignment1Test {
         }
     }
 
+    //this is a test comment
+
     // fibonacci("A") handles if user enters a letter instead of a number
     @Test
     public void test_handles_letter_input() {
