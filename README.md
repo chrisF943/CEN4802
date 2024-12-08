@@ -12,5 +12,7 @@ Some tools and features I integrated:
 - `java.util.logging` for logging application data.
 - `javax.mail` for automated delivery of logs to relevant team members.
 
+Both sets of notes used during the presentations are available in this repository.
+
 [Midterm Presentation](https://youtu.be/Lmdk7h2Cs2c)
 [Final presentation](https://youtu.be/cOi2YND2beE)
