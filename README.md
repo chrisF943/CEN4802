@@ -9,5 +9,8 @@ Some tools and features I integrated:
 - JUnit for unit testing.
 - DataDog for monitoring.
 - JMeter for lightweight testing upon updating in Jenkins.
-- 'java.util.logging' for logging application data.
-- 'javax.mail' for automated delivery of logs to relevant team members.
+- `java.util.logging` for logging application data.
+- `javax.mail` for automated delivery of logs to relevant team members.
+
+[Midterm Presentation](https://youtu.be/Lmdk7h2Cs2c)
+[Final presentation](https://youtu.be/cOi2YND2beE)
