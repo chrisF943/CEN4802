@@ -1,7 +1,7 @@
 # Fibonacci Java Project with Maven, Jenkins, and Integrated Tools
 
 ## Overview
-This repository contains the contents of my midterm and final projects for CEN4802C - Software Integration, Configuration, and Testing. The final project builds on the midterm foundation.
+This repository contains a Jenkins pipeline for a Maven project showcasing various tools, built for the midterm and final projects for CEN4802C- Software Integration, Configuration, and Testing. The final project builds on the midterm foundation.
 
 The project implements a simple Fibonacci sequence calculator written in Java, built with Maven, and deployed using a Jenkins Maven pipeline. The integration highlights the use of modern tools and practices for software development and deployment.
 
@@ -66,9 +66,9 @@ The project implements a simple Fibonacci sequence calculator written in Java, b
 
 ---
 
-## Presentations
-- **Midterm Presentation:** [Link to Notes and Materials](#)
-- **Final Presentation:** [Link to Notes and Materials](#)
+## Video Presentations
+- [Midterm Presentation](https://youtu.be/Lmdk7h2Cs2c)
+- [Final Presentation](https://youtu.be/cOi2YND2beE)
 
 ---
 
