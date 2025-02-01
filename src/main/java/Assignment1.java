@@ -137,7 +137,7 @@ public class Assignment1 {
      * @param filePath       the path to the file to be attached to the email
      */
     public static void sendEmail(String recipientEmail, String subject, String messageText, String filePath) {
-        final String senderEmail = ;
+        final String senderEmail = "";
         final String senderPassword = "";
 
         // Setup mail server properties
